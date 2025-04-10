@@ -1,5 +1,5 @@
 ## Stage 1 - Lets build the "deployable package"
-FROM node:7.10 as frontend-build
+FROM node:18 as frontend-build
 WORKDIR /fullstack/frontend
 
 
@@ -16,7 +16,7 @@ RUN npm run build
 
 
 ## Stage 2 - Let's build a minimal image with the "deployable package"
-FROM nginx:1.12-alpine
-COPY --from=frontend-build /fullstack/frontend/build /usr/share/nginx/html
+FROM nginx:stable-alpine
+COPY --from=frontend-build /fullstack/frontend/dist /usr/share/nginx/html
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]

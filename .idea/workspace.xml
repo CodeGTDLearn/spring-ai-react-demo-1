@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f81e94d-b92f-4fe2-b9da-288c06825db7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/llm-comparison-ui/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAIDemo/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAIDemo/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAIDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAIDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm-comparison-ui/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/llm-comparison-ui/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm-comparison-ui/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/llm-comparison-ui/src/App.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +47,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "com.codeium.enabled": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/SERVIDOR/Projects/spring-webflux-replicaset",
     "settings.build.tools.auto.reload": "ALL",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
